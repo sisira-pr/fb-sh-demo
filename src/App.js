@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import {collection, doc, getDocs, addDoc, updateDoc, deleteDoc} from "@firebase/firestore"
 import {db} from "./firebase-config"
-import { async } from '@firebase/util';
 
 function App() {
  
